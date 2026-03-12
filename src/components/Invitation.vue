@@ -159,13 +159,124 @@
         
         <div class="final-photos">
           <div class="photo-item">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=green%20tree%20leaves%2C%20natural%20background%2C%20fresh%20and%20vibrant&image_size=portrait_4_3" alt="绿树">
+            <img src="@/assets/images/ZS1.jpg" alt="绿树">
           </div>
           <div class="photo-item">
             <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20wedding%20attire%2C%20outdoor%20garden%20setting%2C%20happy%20moment%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照">
           </div>
         </div>
       </div>
+      
+      <!-- 双向奔赴的爱情 -->
+      <div class="just-married-section">
+        <div class="just-married-header">
+          <h2>JUST MARRIED</h2>
+        </div>
+        
+        <div class="love-declaration-text">
+          <p>双向奔赴的爱情，信守彼此的约定</p>
+          <p>始于初见，止于终老</p>
+          <p>余生有你，何其欢喜</p>
+          <p class="english-text">You complete me</p>
+        </div>
+        
+        <div class="couple-photo-section">
+          <div class="photo-container">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20traditional%20chinese%20wedding%20attire%2C%20bride%20in%20red%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20traditional%20chinese%20wedding%20dolls%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3" alt="传统婚纱照">
+          </div>
+          <div class="side-text">
+            <p>遇到你是故事的开始</p>
+            <p>走到底是人间的欢喜</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- My Heart Is With You 部分 -->
+      <div class="heart-with-you-section">
+        <div class="heart-header">
+          <h2>MY HEART IS WITH YOU</h2>
+          <p class="english-text">For the same reason you love me</p>
+          <p class="english-text">I love you, too</p>
+        </div>
+        
+        <div class="heart-photos">
+          <div class="heart-photo-item">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20leaning%20on%20wooden%20railing%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3" alt="婚纱照1">
+          </div>
+          <div class="heart-photo-item">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20facing%20each%20other%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3" alt="婚纱照2">
+          </div>
+        </div>
+        
+        <div class="heart-decoration">
+          <div class="heart-icon"></div>
+          <div class="heart-icon small"></div>
+          <div class="double-happiness-icon">囍</div>
+        </div>
+      </div>
+      
+      <!-- 往后余生部分 -->
+      <div class="rest-of-life-section">
+        <div class="rest-of-life-header">
+          <p class="main-text">往后余生，四季与你</p>
+          <p class="sub-text">我们牵手从天光乍破到暮雪白头</p>
+          <p class="english-text">Love without end hath no end</p>
+        </div>
+        
+        <div class="rest-of-life-photo">
+          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20making%20heart%20shape%20with%20hands%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20purple%20flowers%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3" alt="比心婚纱照">
+          <div class="calendar-badge">
+            <div class="calendar-header">
+              <div class="year">2026</div>
+              <div class="month">4月</div>
+            </div>
+            <div class="calendar-weekdays">
+              <span>一</span>
+              <span>二</span>
+              <span>三</span>
+              <span>四</span>
+              <span>五</span>
+              <span>六</span>
+              <span>日</span>
+            </div>
+            <div class="calendar-days">
+              <span>30</span>
+              <span>31</span>
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+              <span>4</span>
+              <span>5</span>
+              <span>6</span>
+              <span>7</span>
+              <span>8</span>
+              <span>9</span>
+              <span>10</span>
+              <span>11</span>
+              <span class="special-day">12</span>
+              <span>13</span>
+              <span>14</span>
+              <span>15</span>
+              <span>16</span>
+              <span>17</span>
+              <span>18</span>
+              <span>19</span>
+              <span>20</span>
+              <span>21</span>
+              <span>22</span>
+              <span>23</span>
+              <span>24</span>
+              <span>25</span>
+              <span>26</span>
+              <span>27</span>
+              <span>28</span>
+              <span>29</span>
+              <span>30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <!-- 婚礼详情 -->
       <div class="wedding-details">
         <div class="wedding-message">
@@ -217,11 +328,11 @@ const props = defineProps({
   },
   couplePhoto: {
     type: String,
-    default: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=elegant%20wedding%20photo%20of%20couple%20in%20formal%20attire%2C%20white%20background%2C%20professional%20photography&image_size=portrait_4_3'
+    default: 'src/assets/images/QMZS2.jpg'
   },
   weddingPhoto: {
     type: String,
-    default: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=happy%20couple%20at%20wedding%2C%20bride%20in%20white%20dress%2C%20groom%20in%20black%20suit%2C%20outdoor%20setting%2C%20professional%20photography&image_size=portrait_4_3'
+    default: 'src/assets/images/QMZS4.jpg'
   }
 })
 </script>
@@ -397,7 +508,7 @@ const props = defineProps({
   margin-bottom: 20px;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
   transition: transform 0.3s;
 }
 
@@ -627,7 +738,6 @@ const props = defineProps({
   padding: 60px 20px;
   border-radius: 10px;
   margin: 40px 0;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: 'STKaiti', 'KaiTi', serif;
 }
@@ -685,6 +795,354 @@ const props = defineProps({
   background: #e0e0e0;
 }
 
+/* 双向奔赴的爱情部分样式 */
+.just-married-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  margin: 40px 0;
+  border-radius: 10px;
+  font-family: 'STKaiti', 'KaiTi', serif;
+}
+
+.just-married-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.just-married-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+  letter-spacing: 5px;
+}
+
+.love-declaration-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.love-declaration-text p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.love-declaration-text .english-text {
+  font-size: 16px;
+  color: #999;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.couple-photo-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.photo-container {
+  flex: 1;
+  max-width: 70%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.photo-container:hover img {
+  transform: scale(1.05);
+}
+
+.side-text {
+  flex-shrink: 0;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 2.5;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* My Heart Is With You 部分样式 */
+.heart-with-you-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  margin: 40px 0;
+  border-radius: 10px;
+  font-family: 'STKaiti', 'KaiTi', serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.heart-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.heart-header h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary-color);
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.heart-header .english-text {
+  font-size: 16px;
+  color: #999;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.heart-photos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+  position: relative;
+  z-index: 1;
+  margin-left: 80px;
+}
+
+.heart-photo-item {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.heart-photo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.heart-photo-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.heart-photo-item:hover img {
+  transform: scale(1.05);
+}
+
+.heart-decoration {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  z-index: 0;
+}
+
+.heart-icon {
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color);
+  transform: rotate(45deg);
+  position: relative;
+}
+
+.heart-icon::before,
+.heart-icon::after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: var(--primary-color);
+  border-radius: 50%;
+}
+
+.heart-icon::before {
+  top: -15px;
+  left: 0;
+}
+
+.heart-icon::after {
+  top: 0;
+  left: -15px;
+}
+
+.heart-icon.small {
+  width: 20px;
+  height: 20px;
+}
+
+.heart-icon.small::before,
+.heart-icon.small::after {
+  width: 20px;
+  height: 20px;
+}
+
+.heart-icon.small::before {
+  top: -10px;
+}
+
+.heart-icon.small::after {
+  left: -10px;
+}
+
+.double-happiness-icon {
+  font-size: 40px;
+  color: var(--primary-color);
+  font-family: 'STKaiti', 'KaiTi', serif;
+  margin-top: 20px;
+}
+
+/* 往后余生部分样式 */
+.rest-of-life-section {
+  padding: 60px 20px;
+  background: #ffffff;
+  margin: 40px 0;
+  border-radius: 10px;
+  font-family: 'STKaiti', 'KaiTi', serif;
+  text-align: center;
+}
+
+.rest-of-life-header {
+  margin-bottom: 40px;
+}
+
+.rest-of-life-header .main-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.rest-of-life-header .sub-text {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.rest-of-life-header .english-text {
+  font-size: 16px;
+  color: #999;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.rest-of-life-photo {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.rest-of-life-photo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.rest-of-life-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.rest-of-life-photo:hover img {
+  transform: scale(1.05);
+}
+
+.calendar-badge {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: transparent;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 1;
+  font-family: 'STKaiti', 'KaiTi', serif;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.calendar-header .year {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.calendar-header .month {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.calendar-days span {
+  padding: 5px 0;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.calendar-days .special-day {
+  background: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+.calendar-days .special-day::before {
+  content: '❤';
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
 /* 响应式设计 */
 @media (max-width: 600px) {
   .wedding-details {
@@ -723,6 +1181,111 @@ const props = defineProps({
     width: 80px;
     height: 1px;
   }
+
+  /* 双向奔赴的爱情部分响应式 */
+  .just-married-section {
+    padding: 40px 15px;
+    margin: 30px 0;
+  }
+
+  .just-married-header h2 {
+    font-size: 24px;
+  }
+
+  .love-declaration-text p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .love-declaration-text .english-text {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .couple-photo-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .side-text {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* My Heart Is With You 部分响应式 */
+  .heart-with-you-section {
+    padding: 40px 15px;
+    margin: 30px 0;
+  }
+
+  .heart-header h2 {
+    font-size: 24px;
+  }
+
+  .heart-header .english-text {
+    font-size: 14px;
+  }
+
+  .heart-photos {
+    margin-left: 0;
+  }
+
+  .heart-decoration {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .double-happiness-icon {
+    font-size: 30px;
+  }
+
+  /* 往后余生部分响应式 */
+  .rest-of-life-section {
+    padding: 40px 15px;
+    margin: 30px 0;
+  }
+
+  .rest-of-life-header .main-text {
+    font-size: 20px;
+  }
+
+  .rest-of-life-header .sub-text {
+    font-size: 16px;
+  }
+
+  .rest-of-life-header .english-text {
+    font-size: 14px;
+  }
+
+  .rest-of-life-photo {
+    max-width: 100%;
+  }
+
+  .calendar-badge {
+    padding: 10px;
+  }
+
+  .calendar-header .year,
+  .calendar-header .month {
+    font-size: 20px;
+  }
+
+  .calendar-weekdays,
+  .calendar-days {
+    font-size: 12px;
+  }
+
+  .calendar-days span {
+    padding: 3px 0;
+  }
 }
 
 /* 邀请函内容样式 */
@@ -731,7 +1294,6 @@ const props = defineProps({
   background: #ffffff;
   margin: 40px 0;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .invitation-header {
