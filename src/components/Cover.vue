@@ -5,7 +5,7 @@
       <div class="chinese-art">婚礼</div>
       <div class="english-art">WEDDING</div>
     </div>
-    
+
     <div class="cover-content">
       <h1 class="title"></h1>
       <div class="names">
@@ -17,17 +17,12 @@
         {{ weddingDate }}
       </div>
       <button class="open-btn" @click="handleAcceptInvitation"><span>接受邀请</span></button>
-      
+
       <!-- 姓名输入模态框 -->
       <div class="name-input-modal" v-if="showNameInput">
         <div class="modal-content">
           <h3>请输入您的姓名</h3>
-          <input 
-            type="text" 
-            v-model="inputName"
-            placeholder="请输入姓名"
-            @keyup.enter="confirmName"
-          >
+          <input type="text" v-model="inputName" placeholder="请输入姓名" @keyup.enter="confirmName">
           <div v-if="errorMessage" class="error-message">{{ errorMessage }}</div>
           <div class="modal-buttons">
             <button @click="confirmName" class="confirm-btn">确认</button>
@@ -36,13 +31,13 @@
         </div>
       </div>
     </div>
-    
+
     <!-- 底部标签 -->
     <div class="wedding-tag">
       <span>盼婚礼佳期，与君再相见</span>
     </div>
   </div>
-</template> 
+</template>
 
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
@@ -167,7 +162,7 @@ onUnmounted(() => {
 .chinese-art {
   font-size: 48px;
   font-weight: bold;
-  color: #e94840;;
+  color: #e94840;
   font-family: 'STKaiti', 'KaiTi', serif;
   writing-mode: vertical-rl;
   text-orientation: upright;
@@ -193,7 +188,7 @@ onUnmounted(() => {
 
 .title {
   font-size: 3em;
-  color: #ffffff;;
+  color: #ffffff;
   margin-bottom: 30px;
   font-weight: bold;
   font-family: 'STKaiti', 'KaiTi', serif;
@@ -209,13 +204,14 @@ onUnmounted(() => {
 }
 
 .groom {
-  color: #f3a9a5;;
+  color: #f3a9a5;
   font-weight: bold;
   font-family: 'STKaiti', 'KaiTi', serif;
   font-size: 1.6em;
 }
+
 .bride {
-  color: #f3a9a5;;
+  color: #f3a9a5;
   font-weight: bold;
   font-family: 'STKaiti', 'KaiTi', serif;
   font-size: 1.6em;
@@ -229,9 +225,9 @@ onUnmounted(() => {
 
 .wedding-date {
   font-size: 1.2em;
-  color: #f6d7d7;
+  color: rgba(244, 12, 12, 0.45);
   margin-bottom: 40px;
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .open-btn {
@@ -251,22 +247,10 @@ onUnmounted(() => {
   font-weight: bold;
 }
 
-.open-btn::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/></svg>');
-  opacity: 0.3;
-  z-index: 1;
-}
-
 .open-btn:hover {
   transform: scale(1.05) rotate(-2deg);
   box-shadow: 0 6px 16px rgba(233, 72, 64, 0.4);
-  background: linear-gradient(135deg, #d43830 0%, #e94840 100%);
+  /* background: linear-gradient(135deg, #d43830 0%, #e94840 100%); */
 }
 
 .open-btn span {
@@ -377,6 +361,7 @@ onUnmounted(() => {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -387,9 +372,11 @@ onUnmounted(() => {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.2);
   }
+
   100% {
     transform: scale(1);
   }
@@ -400,6 +387,7 @@ onUnmounted(() => {
     opacity: 0;
     transform: translateY(-20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);

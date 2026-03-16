@@ -9,7 +9,9 @@
       </div>
       <div class="top-msg">
         <p>wellcome our wedding</p>
-        <p>bleano gerio gjieor gio</p>
+        <p>with all our love</p>
+        <p>we invite you to witness</p>
+        <p>the union of our hearts in marriage</p>
       </div>
       <div class="couple-photo">
         <img :src="couplePhoto" alt="新人照片">
@@ -46,26 +48,25 @@
         <img :src="weddingPhoto" alt="婚礼照片">
       </div>
     </section>
-      <div class="wedding-date">
-        {{ weddingDate }}我们要结婚啦！💓💓💓
-      </div>
-      
-      <!-- 倒计时组件 -->
-      <Countdown 
-        :weddingDate="weddingDate" 
-        :weddingTime="weddingTime"
-      />
-      
-      <div class="invitation-text">
-        诚邀您出席我们的婚礼
-      </div>
+    <div class="wedding-date">
+      {{ weddingDate }}我们要结婚啦！💓💓💓
+    </div>
+
+    <!-- 倒计时组件 -->
+    <Countdown :weddingDate="weddingDate" :weddingTime="weddingTime" />
+
+    <div class="invitation-text">
+      诚邀您出席我们的婚礼
+    </div>
     <!-- 照片布局区域 -->
     <section class="photos-section">
       <!-- 第一张照片 -->
       <div class="photo-item full-width">
-        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=elegant%20wedding%20photo%20of%20couple%20in%20formal%20attire%2C%20white%20background%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照1">
+        <img
+          src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=elegant%20wedding%20photo%20of%20couple%20in%20formal%20attire%2C%20white%20background%2C%20professional%20photography&image_size=portrait_4_3"
+          alt="婚纱照1">
       </div>
-      
+
       <!-- 邀请函内容 -->
       <div class="invitation-content">
         <div class="invitation-header">
@@ -73,7 +74,7 @@
           <div class="header-line"></div>
           <div class="header-right">相守</div>
         </div>
-        
+
         <div class="invitation-body">
           <div class="body-left">
             <div class="invitation-title">INVITATION</div>
@@ -81,7 +82,7 @@
           <div class="body-center">
             <div class="double-happiness">囍</div>
           </div>
-          
+
           <div class="body-right">
             <div class="invitation-text">
               <p>我们一起开始这段旅程</p>
@@ -96,18 +97,22 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 两张照片并排 -->
       <!-- 垂直排列的照片 -->
       <div class="vertical-photos">
         <div class="photo-item">
-          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20outdoor%20wedding%20photo%2C%20natural%20light%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照2">
+          <img
+            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20outdoor%20wedding%20photo%2C%20natural%20light%2C%20professional%20photography&image_size=portrait_4_3"
+            alt="婚纱照2">
         </div>
         <div class="photo-item">
-          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20in%20white%20wedding%20dress%2C%20groom%20in%20black%20suit%2C%20romantic%20pose%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照3">
+          <img
+            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20in%20white%20wedding%20dress%2C%20groom%20in%20black%20suit%2C%20romantic%20pose%2C%20professional%20photography&image_size=portrait_4_3"
+            alt="婚纱照3">
         </div>
       </div>
-      
+
       <!-- 爱情宣言 -->
       <div class="love-message">
         <p>茫茫人海，能够遇见就是一种缘分</p>
@@ -117,18 +122,22 @@
         <p class="english-message">You make my heart smile</p>
         <p class="love-title">LOVE</p>
       </div>
-      
+
 
       <!-- 更多照片 -->
       <div class="photo-grid three-col">
         <div class="photo-item">
-          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20in%20wedding%20attire%2C%20garden%20setting%2C%20romantic%20moment%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照4">
+          <img
+            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20in%20wedding%20attire%2C%20garden%20setting%2C%20romantic%20moment%2C%20professional%20photography&image_size=portrait_4_3"
+            alt="婚纱照4">
         </div>
         <div class="photo-item">
-          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20holding%20hands%2C%20sunset%2C%20romantic%20lighting%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照5">
+          <img
+            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20holding%20hands%2C%20sunset%2C%20romantic%20lighting%2C%20professional%20photography&image_size=portrait_4_3"
+            alt="婚纱照5">
         </div>
       </div>
-      
+
       <!-- 爱情宣言 -->
       <div class="love-declaration">
         <p class="declaration-title">岁月漫长</p>
@@ -136,9 +145,11 @@
         <p>而你也在披荆斩棘为我而来</p>
         <p class="english-declaration">For you, a thousand times over</p>
       </div>
-      
+
       <div class="photo-item full-width">
-        <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20walking%20down%20aisle%2C%20wedding%20ceremony%2C%20emotional%20moment%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照7">
+        <img
+          src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20walking%20down%20aisle%2C%20wedding%20ceremony%2C%20emotional%20moment%2C%20professional%20photography&image_size=portrait_4_3"
+          alt="婚纱照7">
       </div>
       <!-- 相知相伴部分 -->
       <div class="knowing-accompanying">
@@ -147,42 +158,46 @@
           <div class="header-line"></div>
           <div class="header-right">相伴</div>
         </div>
-        
+
         <div class="double-happiness-center">囍</div>
-        
+
         <div class="accompanying-text">
           <p>热爱彼此，包容彼此，信任彼此</p>
           <p>在快乐的日子里共同举杯</p>
           <p>在难过的日子里伸出怀抱</p>
           <p class="english-text">Brief is life but love is long</p>
         </div>
-        
+
         <div class="final-photos">
           <div class="photo-item">
-            <img src="@/assets/images/ZS1.jpg" alt="绿树">
+            <img src="@/assets/images/ZS1.jpg">
           </div>
           <div class="photo-item">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20wedding%20attire%2C%20outdoor%20garden%20setting%2C%20happy%20moment%2C%20professional%20photography&image_size=portrait_4_3" alt="婚纱照">
+            <img
+              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20wedding%20attire%2C%20outdoor%20garden%20setting%2C%20happy%20moment%2C%20professional%20photography&image_size=portrait_4_3"
+              alt="婚纱照">
           </div>
         </div>
       </div>
-      
+
       <!-- 双向奔赴的爱情 -->
       <div class="just-married-section">
         <div class="just-married-header">
           <h2>JUST MARRIED</h2>
         </div>
-        
+
         <div class="love-declaration-text">
           <p>双向奔赴的爱情，信守彼此的约定</p>
           <p>始于初见，止于终老</p>
           <p>余生有你，何其欢喜</p>
           <p class="english-text">You complete me</p>
         </div>
-        
+
         <div class="couple-photo-section">
           <div class="photo-container">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20traditional%20chinese%20wedding%20attire%2C%20bride%20in%20red%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20traditional%20chinese%20wedding%20dolls%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3" alt="传统婚纱照">
+            <img
+              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20traditional%20chinese%20wedding%20attire%2C%20bride%20in%20red%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20traditional%20chinese%20wedding%20dolls%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3"
+              alt="传统婚纱照">
           </div>
           <div class="side-text">
             <p>遇到你是故事的开始</p>
@@ -190,7 +205,7 @@
           </div>
         </div>
       </div>
-      
+
       <!-- My Heart Is With You 部分 -->
       <div class="heart-with-you-section">
         <div class="heart-header">
@@ -198,23 +213,27 @@
           <p class="english-text">For the same reason you love me</p>
           <p class="english-text">I love you, too</p>
         </div>
-        
+
         <div class="heart-photos">
           <div class="heart-photo-item">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20leaning%20on%20wooden%20railing%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3" alt="婚纱照1">
+            <img
+              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20leaning%20on%20wooden%20railing%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3"
+              alt="婚纱照1">
           </div>
           <div class="heart-photo-item">
-            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20facing%20each%20other%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3" alt="婚纱照2">
+            <img
+              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20facing%20each%20other%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3"
+              alt="婚纱照2">
           </div>
         </div>
-        
+
         <div class="heart-decoration">
           <div class="heart-icon"></div>
           <div class="heart-icon small"></div>
           <div class="double-happiness-icon">囍</div>
         </div>
       </div>
-      
+
       <!-- 往后余生部分 -->
       <div class="rest-of-life-section">
         <div class="rest-of-life-header">
@@ -222,9 +241,9 @@
           <p class="sub-text">我们牵手从天光乍破到暮雪白头</p>
           <p class="english-text">Love without end hath no end</p>
         </div>
-        
+
         <div class="rest-of-life-photo">
-          <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20making%20heart%20shape%20with%20hands%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20purple%20flowers%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3" alt="比心婚纱照">
+          <img src="@/assets/images/ZS1.jpg" alt="比心婚纱照">
           <div class="calendar-badge">
             <div class="calendar-header">
               <div class="year">2026</div>
@@ -276,18 +295,18 @@
           </div>
         </div>
       </div>
-      
+
       <!-- 婚礼详情 -->
       <div class="wedding-details">
         <div class="wedding-message">
           <p>答案很长，我得用一生去回答你</p>
           <p>准备好听我说了吗？</p>
         </div>
-        
+
         <div class="wedding-double-happiness">囍</div>
-        
+
         <div class="wedding-invitation">INVITATION</div>
-        
+
         <div class="wedding-info">
           <div class="info-left">
             <p>2026年4月12日 星期日</p>
@@ -300,9 +319,19 @@
           </div>
         </div>
       </div>
-      
 
-      
+
+
+    </section>
+
+    <!-- 地图组件 -->
+    <section class="map-section">
+      <MapComponent 
+        :latitude="30.471638" 
+        :longitude="120.407505" 
+        locationName="XX酒店XX厅"
+        address="浙江省杭州市西湖区"
+      />
     </section>
   </div>
 </template>
@@ -310,6 +339,7 @@
 <script setup>
 import { ref } from 'vue'
 import Countdown from './Countdown.vue'
+import MapComponent from './MapComponent.vue'
 
 const props = defineProps({
   groomName: {
@@ -335,6 +365,7 @@ const props = defineProps({
     default: 'src/assets/images/QMZS4.jpg'
   }
 })
+
 </script>
 
 <style scoped>
@@ -353,6 +384,7 @@ const props = defineProps({
   text-align: center;
   background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
 }
+
 .cover-section .top-msg {
   font-size: 14px;
   text-align: right;
@@ -397,14 +429,43 @@ const props = defineProps({
 
 .wedding-tag {
   position: absolute;
-  bottom: 40px;
-  right: 40px;
-  background: rgba(233, 72, 64, 0.9);
-  color: white;
-  padding: 10px 20px;
-  border-radius: 20px;
-  font-size: 16px;
+  bottom: 16px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 18px;
   font-weight: bold;
+  width: 100px;
+  height: 24px;
+  border-right: 1px solid transparent;
+  animation: typing 4.5s steps(20, end) infinite, blink-caret .75s step-end infinite;
+  word-break: break-all;
+  overflow: hidden;
+}
+
+/* 打印效果 */
+@keyframes typing {
+
+  0%,
+  100% {
+    width: 0;
+  }
+
+  50% {
+    width: 100px;
+  }
+}
+
+/* 光标 */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: currentColor;
+  }
 }
 
 /* 邀请信息区域 */
@@ -414,6 +475,7 @@ const props = defineProps({
   background: #ffffff;
   color: #333;
 }
+
 .invitation-section .wedding-description {
   color: #999999;
   text-align: left;
@@ -1051,13 +1113,11 @@ const props = defineProps({
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 80%;
   margin: 0 auto;
 }
 
 .rest-of-life-photo:hover {
-  transform: translateY(-5px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
@@ -1065,11 +1125,6 @@ const props = defineProps({
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s ease;
-}
-
-.rest-of-life-photo:hover img {
-  transform: scale(1.05);
 }
 
 .calendar-badge {
@@ -1077,11 +1132,13 @@ const props = defineProps({
   bottom: 20px;
   left: 20px;
   right: 20px;
-  background: transparent;
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 5px;
-  padding: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  /* color: var(--primary-color);
+  border: 2px solid var(--primary-color); */
+  color: rgba(255, 255, 255, 0.85);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+  padding: 16px;
   z-index: 1;
   font-family: 'STKaiti', 'KaiTi', serif;
 }
@@ -1389,13 +1446,6 @@ const props = defineProps({
     margin: 40px 0 20px;
   }
 
-  .wedding-tag {
-    bottom: 20px;
-    right: 20px;
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-
   .invitation-section {
     padding: 30px 20px;
   }
@@ -1559,6 +1609,107 @@ const props = defineProps({
     grid-template-columns: 1fr;
     gap: 15px;
     margin-top: 30px;
+  }
+  
+  /* 地图组件响应式 */
+  .map-section {
+    padding: 20px;
+  }
+  
+  .map-container {
+    margin: 0 auto;
+    max-width: 90%;
+  }
+  
+  .map-placeholder {
+    padding: 30px 20px;
+  }
+  
+  .map-icon {
+    font-size: 30px;
+  }
+  
+  .map-title {
+    font-size: 16px;
+  }
+  
+  .map-subtitle {
+    font-size: 12px;
+  }
+}
+
+/* 地图组件样式 */
+.map-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+.map-section h3 {
+  color: var(--primary-color, #e94840);
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.map-container {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.map-container:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.map-placeholder {
+  background: linear-gradient(135deg, #f5f5f5 0%, #ffffff 100%);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.map-icon {
+  font-size: 48px;
+  color: var(--primary-color, #e94840);
+}
+
+.map-info {
+  text-align: center;
+}
+
+.map-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.map-subtitle {
+  font-size: 14px;
+  color: #666;
+  font-style: italic;
+}
+
+.map-section {
+  padding: 40px 20px;
+  background: #ffffff;
+  border-top: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+/* 响应式设计 */
+@media (max-width: 600px) {
+  .map-section {
+    padding: 20px;
   }
 }
 </style>
