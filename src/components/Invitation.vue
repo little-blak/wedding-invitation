@@ -14,7 +14,7 @@
         <p>the union of our hearts in marriage</p>
       </div>
       <div class="couple-photo">
-        <img :src="couplePhoto" alt="新人照片">
+        <img src="https://static.lyzhyun.com/static/images/1773992499267-QMZS2.jpg" alt="新人照片">
       </div>
       <div class="wedding-tag">
         <span>我们婚礼见</span>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="wedding-photo">
-        <img :src="weddingPhoto" alt="婚礼照片">
+        <img src="https://static.lyzhyun.com/static/images/1773992539663-QMZS4.jpg" alt="婚礼照片">
       </div>
     </section>
     <div class="wedding-date">
@@ -62,9 +62,7 @@
     <section class="photos-section">
       <!-- 第一张照片 -->
       <div class="photo-item full-width">
-        <img
-          src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=elegant%20wedding%20photo%20of%20couple%20in%20formal%20attire%2C%20white%20background%2C%20professional%20photography&image_size=portrait_4_3"
-          alt="婚纱照1">
+        <img src="https://static.lyzhyun.com/static/images/1773991402407-ZS2.jpg" alt="婚纱照1" />
       </div>
 
       <!-- 邀请函内容 -->
@@ -102,14 +100,10 @@
       <!-- 垂直排列的照片 -->
       <div class="vertical-photos">
         <div class="photo-item">
-          <img
-            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20outdoor%20wedding%20photo%2C%20natural%20light%2C%20professional%20photography&image_size=portrait_4_3"
-            alt="婚纱照2">
+          <img src="https://static.lyzhyun.com/static/images/1773992549292-QMZS5.jpg" alt="婚纱照2">
         </div>
         <div class="photo-item">
-          <img
-            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20in%20white%20wedding%20dress%2C%20groom%20in%20black%20suit%2C%20romantic%20pose%2C%20professional%20photography&image_size=portrait_4_3"
-            alt="婚纱照3">
+          <img src="https://static.lyzhyun.com/static/images/1773992558227-QMZS6.jpg" alt="婚纱照3">
         </div>
       </div>
 
@@ -127,14 +121,10 @@
       <!-- 更多照片 -->
       <div class="photo-grid three-col">
         <div class="photo-item">
-          <img
-            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20in%20wedding%20attire%2C%20garden%20setting%2C%20romantic%20moment%2C%20professional%20photography&image_size=portrait_4_3"
-            alt="婚纱照4">
+          <img src="https://static.lyzhyun.com/static/images/1773991358708-ZS3.jpg" alt="婚纱照4">
         </div>
         <div class="photo-item">
-          <img
-            src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20holding%20hands%2C%20sunset%2C%20romantic%20lighting%2C%20professional%20photography&image_size=portrait_4_3"
-            alt="婚纱照5">
+          <img src="https://static.lyzhyun.com/static/images/1773991346850-ZS4.jpg" alt="婚纱照5">
         </div>
       </div>
 
@@ -147,9 +137,7 @@
       </div>
 
       <div class="photo-item full-width">
-        <img
-          src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=couple%20walking%20down%20aisle%2C%20wedding%20ceremony%2C%20emotional%20moment%2C%20professional%20photography&image_size=portrait_4_3"
-          alt="婚纱照7">
+        <img src="https://static.lyzhyun.com/static/images/1773991327479-ZS5.jpg" alt="婚纱照7">
       </div>
       <!-- 相知相伴部分 -->
       <div class="knowing-accompanying">
@@ -170,12 +158,10 @@
 
         <div class="final-photos">
           <div class="photo-item">
-            <img src="@/assets/images/ZS1.jpg">
+            <img src="https://static.lyzhyun.com/static/images/1773991313426-ZS6.jpg">
           </div>
           <div class="photo-item">
-            <img
-              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20wedding%20attire%2C%20outdoor%20garden%20setting%2C%20happy%20moment%2C%20professional%20photography&image_size=portrait_4_3"
-              alt="婚纱照">
+            <img src="https://static.lyzhyun.com/static/images/1773988373447-ZS7.jpg" alt="婚纱照">
           </div>
         </div>
       </div>
@@ -195,9 +181,7 @@
 
         <div class="couple-photo-section">
           <div class="photo-container">
-            <img
-              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20in%20traditional%20chinese%20wedding%20attire%2C%20bride%20in%20red%20dress%2C%20groom%20in%20brown%20suit%2C%20holding%20traditional%20chinese%20wedding%20dolls%2C%20indoor%20setting%2C%20professional%20photography&image_size=portrait_4_3"
-              alt="传统婚纱照">
+            <img src="https://static.lyzhyun.com/static/images/1773992530677-QMZS3.jpg" alt="传统婚纱照">
           </div>
           <div class="side-text">
             <p>遇到你是故事的开始</p>
@@ -216,14 +200,10 @@
 
         <div class="heart-photos">
           <div class="heart-photo-item">
-            <img
-              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20leaning%20on%20wooden%20railing%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3"
-              alt="婚纱照1">
+            <img src="https://static.lyzhyun.com/static/images/1773992568539-QMZS7.jpg" alt="婚纱照1">
           </div>
           <div class="heart-photo-item">
-            <img
-              src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=bride%20and%20groom%20facing%20each%20other%2C%20bride%20in%20red%20traditional%20dress%2C%20groom%20in%20brown%20suit%2C%20indoor%20setting%2C%20professional%20photography&image_size=landscape_4_3"
-              alt="婚纱照2">
+            <img src="https://static.lyzhyun.com/static/images/1773992577821-QMZS8.jpg" alt="婚纱照2">
           </div>
         </div>
 
@@ -243,7 +223,7 @@
         </div>
 
         <div class="rest-of-life-photo">
-          <img src="@/assets/images/ZS1.jpg" alt="比心婚纱照">
+          <img src="https://static.lyzhyun.com/static/images/1773991413801-ZS1.jpg" alt="比心婚纱照">
           <div class="calendar-badge">
             <div class="calendar-header">
               <div class="year">2026</div>
@@ -326,12 +306,7 @@
 
     <!-- 地图组件 -->
     <section class="map-section">
-      <MapComponent 
-        :latitude="30.471638" 
-        :longitude="120.407505" 
-        locationName="XX酒店XX厅"
-        address="浙江省杭州市西湖区"
-      />
+      <MapComponent :latitude="30.471638" :longitude="120.407505" locationName="茗山村10组16号" address="浙江省海宁市许村镇" />
     </section>
   </div>
 </template>
@@ -356,14 +331,6 @@ const props = defineProps({
   weddingTime: {
     type: String,
   },
-  couplePhoto: {
-    type: String,
-    default: 'src/assets/images/QMZS2.jpg'
-  },
-  weddingPhoto: {
-    type: String,
-    default: 'src/assets/images/QMZS4.jpg'
-  }
 })
 
 </script>
@@ -1610,29 +1577,29 @@ const props = defineProps({
     gap: 15px;
     margin-top: 30px;
   }
-  
+
   /* 地图组件响应式 */
   .map-section {
     padding: 20px;
   }
-  
+
   .map-container {
     margin: 0 auto;
     max-width: 90%;
   }
-  
+
   .map-placeholder {
     padding: 30px 20px;
   }
-  
+
   .map-icon {
     font-size: 30px;
   }
-  
+
   .map-title {
     font-size: 16px;
   }
-  
+
   .map-subtitle {
     font-size: 12px;
   }

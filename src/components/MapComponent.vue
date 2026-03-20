@@ -11,6 +11,7 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import poiMarkerDefault from '/src/assets/images/poi-marker-default.png'
 
 const props = defineProps({
   /**
@@ -80,30 +81,17 @@ const initMap = () => {
   marker = new window.AMap.Marker({
     position: [props.longitude, props.latitude],
     title: props.locationName,
+    // offset: new window.AMap.Pixel(-13, -30),
+    // icon: "//a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-default.png",
     icon: new window.AMap.Icon({
-      size: new window.AMap.Size(40, 40),
-      image: 'https://a.amap.com/jsapi_demos/static/demo-center/icons/poi-marker-default.png',
-      imageSize: new window.AMap.Size(40, 40)
+      size: new window.AMap.Size(53, 68),
+      image: poiMarkerDefault,
+      imageSize: new window.AMap.Size(53, 68),
+      anchor: 'bottom-center'
     })
   })
 
   marker.setMap(map)
-
-  // 添加信息窗口
-  const infoWindow = new window.AMap.InfoWindow({
-    content: `
-      <div style="padding: 10px;">
-        <h4>${props.locationName}</h4>
-        <p>${props.address}</p>
-      </div>
-    `,
-    offset: new window.AMap.Pixel(0, -30)
-  })
-
-  // 点击标记显示信息窗口
-  marker.on('click', function() {
-    infoWindow.open(map, marker.getPosition())
-  })
 
   // 调整地图大小
   mapContainer.value.style.height = props.height
