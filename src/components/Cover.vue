@@ -19,7 +19,7 @@
       <button class="open-btn" @click="handleAcceptInvitation"><span>接受邀请</span></button>
 
       <!-- 姓名输入模态框 -->
-      <div class="name-input-modal" v-if="showNameInput">
+      <!-- <div class="name-input-modal" v-if="showNameInput">
         <div class="modal-content">
           <h3>请输入您的姓名</h3>
           <input type="text" v-model="inputName" placeholder="请输入姓名" @keyup.enter="confirmName">
@@ -29,7 +29,7 @@
             <button @click="cancelInput" class="cancel-btn">取消</button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <!-- 底部标签 -->
@@ -41,7 +41,6 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted, nextTick } from 'vue'
-import { useRouter } from 'vue-router'
 
 const props = defineProps({
   weddingDate: String,
@@ -51,7 +50,6 @@ const props = defineProps({
 
 const emit = defineEmits(['openInvitation'])
 
-const router = useRouter()
 const coverElement = ref(null)
 const showNameInput = ref(false)
 const inputName = ref('')
@@ -61,8 +59,9 @@ const errorMessage = ref('')
  * 处理接受邀请
  */
 const handleAcceptInvitation = () => {
-  showNameInput.value = true
-  errorMessage.value = ''
+  // showNameInput.value = true
+  // errorMessage.value = ''
+  emit('openInvitation')
 }
 
 /**
@@ -74,11 +73,7 @@ const confirmName = () => {
     return
   }
 
-  if (inputName.value === props.groomName || inputName.value === props.brideName) {
-    router.push('/game')
-  } else {
-    emit('openInvitation')
-  }
+  emit('openInvitation')
   showNameInput.value = false
   inputName.value = ''
   errorMessage.value = ''

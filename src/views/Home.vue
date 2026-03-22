@@ -9,13 +9,6 @@
       @openInvitation="openInvitation"
     />
     
-    <!-- 视频播放器组件 -->
-    <VideoPlayer 
-      v-else-if="currentView === 'video'"
-      :videoSrc="videoSrc" 
-      @video-ended="onVideoEnded"
-    />
-    
     <!-- 主内容区域 -->
     <div v-else class="main-content">
       <Invitation
@@ -25,6 +18,9 @@
         :weddingTime="weddingInfo.time"
       />
     </div>
+    
+    <!-- 音乐播放组件 -->
+    <MusicPlayer />
   </div>
 </template>
 
@@ -32,12 +28,11 @@
 import { ref, readonly } from 'vue'
 import Cover from '@/components/Cover.vue'
 import Invitation from '@/components/Invitation.vue'
-import VideoPlayer from '@/components/VideoPlayer.vue'
+import MusicPlayer from '@/components/MusicPlayer.vue'
 
 // 页面视图状态枚举
 const VIEW_STATES = {
   COVER: 'cover',
-  VIDEO: 'video',
   CONTENT: 'content'
 }
 
@@ -52,23 +47,11 @@ const weddingInfo = readonly({
   time: '12:00' // 婚礼时间
 })
 
-// 视频资源路径
-const videoSrc = '你的视频路径.mp4'
-
 /**
  * 打开邀请函
- * 切换到视频视图
- */
-const openInvitation = () => {
-  currentView.value = VIEW_STATES.VIDEO
-  document.body.style.overflow = 'hidden' // 禁止页面滚动
-}
-
-/**
- * 视频播放结束
  * 切换到主内容视图
  */
-const onVideoEnded = () => {
+const openInvitation = () => {
   currentView.value = VIEW_STATES.CONTENT
   document.body.style.overflow = 'auto' // 恢复页面滚动
 }
